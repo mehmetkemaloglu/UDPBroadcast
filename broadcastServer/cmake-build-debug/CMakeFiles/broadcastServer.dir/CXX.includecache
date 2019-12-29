@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mbk/Desktop/broadcastServer/main.cpp
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/select.h
+-
+stdio.h
+-
+strings.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+

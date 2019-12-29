@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mbk/Desktop/broadcastClient/main.cpp
+stdio.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/select.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+
